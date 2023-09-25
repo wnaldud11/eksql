@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form_test</title>
+  </head>
+  <body>
+    <form>
+      <!--form 태그를 안썼음! 
+            아래 내용 전부는 form 태그를 먼저 쓴 다음이어야 동작한다.-->
+      <h2>이메일 전송화면</h2>
+      <p>이름: <input type="text" name="name" /></p>
+      <p>이메일주소:<input type="email" name="email" /></p>
+      내용:<br />
+      <textarea name="feedback" rows="5" cols="50" autofocus></textarea>
+      <br />
+      <input type="submit" value="전송" />
+      <input type="reset" value="재설정" />
+    </form>
+  </body>
+</html>
