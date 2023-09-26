@@ -1,0 +1,27 @@
+h1,
+p {
+  font-family: serif;
+  color: black;
+}
+span {
+  font-size: 2em;
+  color: rgb(241, 183, 183);
+}
+em {
+  font-size: 1.5em;
+  color: rgb(165, 165, 255);
+}
+h1 {
+  border-bottom: 1px solid gray;
+  color: rgb(253, 147, 147);
+}
+
+h3 {
+  background-color: yellow;
+  border: 2px solid red;
+}
+
+body {
+  font-size: 13px;
+  background-color: rgb(245, 245, 204);
+}
