@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        height: 200px;
+        border: 10px dashed black;
+        padding: 20px;
+        /*background-image: url(../img/구름.jpg);*/
+        background-repeat: no-repeat;
+        background :rgb(255, 226, 226);
+      }
+      /*  background-size: cover;*/
+      /*background-position: top right;*/
+      h1 {
+        color: rgb(255, 183, 195);
+      }
+      #origin{
+        background-repeat: no-repeat;
+      }
+      #padding{
+        background-repeat: no-repeat;
+        background-clip: padding-box;
+
+      }
+      /*#content
+        background-repeat: no-repeat;
+        background-clip : content-box;*/
+  </head>
+  <body>
+    <div id="origin">
+      <h1>구름이 너무 이쁘다</h1>
+      <p>빨리 끝나서 구름 보고싶다</p>
+    </div>
+    <br />
+
+    <div id="padding">
+      <h1>구름이 너무 이쁘다 패딩박스</h1>
+      <p>빨리 끝나서 구름 보고싶다</p>
+    </div>
+    <br />
+
+    <div id="content">
+      <h1>구름이 너무 이쁘다 컨택트</h1>
+      <p>빨리 끝나서 구름 보고싶다</p>
+    </div>
+    <br />
+  </body>
+</html>

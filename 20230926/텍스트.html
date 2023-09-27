@@ -38,6 +38,18 @@
         text-decoration: underline;
       }
       /* a태그의 text-decoration 기본값은 underline 이다 */
+      p.upper {
+        text-transform: uppercase;
+      }
+      p.lower {
+        text-transform: lowercase;
+      }
+      p.capit {
+        text-transform: capitalize;
+      }
+      h5 {
+        text-shadow: 5px 5px 5px #ff0000;
+      } /*번짐 정도 , 생략가능 */
     </style>
   </head>
   <body>
@@ -50,5 +62,10 @@
     <h2>텍스트 장식의 예입니다.</h2>
     <h3>텍스트 장식의 예입니다.</h3>
     <h4>텍스트 장식의 예입니다.</h4>
+    <h5>쉐도우 처리! 좌/우 상/하 두깨</h5>
+
+    <p class="upper">text_transgorm is uppercase.</p>
+    <p class="lower">text_transgorm is lowercase.</p>
+    <p class="capit">text_transgorm is capitalize.</p>
   </body>
 </html>
